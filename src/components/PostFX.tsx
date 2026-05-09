@@ -1,5 +1,13 @@
 import React from "react";
-import { EffectComposer, Bloom, SSAO, Vignette, BrightnessContrast, HueSaturation, ToneMapping } from "@react-three/postprocessing";
+import {
+  EffectComposer,
+  Bloom,
+  SSAO,
+  Vignette,
+  BrightnessContrast,
+  HueSaturation,
+  ToneMapping,
+} from "@react-three/postprocessing";
 import { BlendFunction } from "postprocessing";
 
 export default function PostFX() {
@@ -31,21 +39,10 @@ export default function PostFX() {
         bias={0.04}
       />
 
-      <BrightnessContrast
-        brightness={0.02}
-        contrast={0.08}
-      />
+      <BrightnessContrast brightness={0.02} contrast={0.08} />
+      <HueSaturation hue={-0.02} saturation={0.06} />
 
-      <HueSaturation
-        hue={-0.02}
-        saturation={0.06}
-      />
-
-      <Vignette
-        eskil={false}
-        offset={0.15}
-        darkness={0.92}
-      />
+      <Vignette eskil={false} offset={0.15} darkness={0.92} />
     </EffectComposer>
   );
 }

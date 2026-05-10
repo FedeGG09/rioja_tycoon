@@ -1,0 +1,1 @@
+Drop these files into the repo root, preserving paths.\nMain replacements: src/App.tsx and src/components/PostFX.tsx.\nNew gameplay files: src/game/* and src/components/ui/* and src/components/game/ParcelScene.tsx.\n

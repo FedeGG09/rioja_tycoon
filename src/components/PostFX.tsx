@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿import React from "react";
+=======
+import React from "react";
+>>>>>>> ebecbc2 (feat: full game (visual + gameplay integrated))
 import {
   EffectComposer,
   Bloom,
@@ -22,6 +26,7 @@ export default function PostFX() {
         averageLuminance={1}
         adaptationRate={1}
       />
+<<<<<<< HEAD
 
       <Bloom
         intensity={0.38}
@@ -43,6 +48,23 @@ export default function PostFX() {
       <HueSaturation hue={-0.02} saturation={0.06} />
 
       <Vignette eskil={false} offset={0.15} darkness={0.92} />
+=======
+      <Bloom
+        intensity={0.45}
+        luminanceThreshold={0.24}
+        luminanceSmoothing={0.16}
+      />
+      <SSAO
+        samples={16}
+        radius={0.32}
+        intensity={26}
+        luminanceInfluence={0.16}
+        bias={0.04}
+      />
+      <BrightnessContrast brightness={0.02} contrast={0.08} />
+      <HueSaturation hue={-0.02} saturation={0.06} />
+      <Vignette eskil={false} offset={0.16} darkness={0.92} />
+>>>>>>> ebecbc2 (feat: full game (visual + gameplay integrated))
     </EffectComposer>
   );
 }

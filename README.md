@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # La Rioja Agro-Tycoon — Visual Pack
 
 Este paquete está preparado para desplegarse en Cloudflare Pages con Vite + React + Three.js + React Three Fiber.
@@ -32,3 +33,13 @@ Este paquete está preparado para desplegarse en Cloudflare Pages con Vite + Rea
 - Agregar modelos GLB optimizados para bodegas, silos, tractores y cosechadoras
 - Hacer bake de algunos elementos estáticos para reducir draw calls
 - Añadir LOD por distrito y niebla volumétrica suave sobre los valles
+=======
+Link al juego: https://rioja-agro-tycoon.lovable.app/
+
+
+---
+
+## Combined visual + gameplay build
+
+This repo package includes the visual scene pack plus the gameplay layer and can be deployed on Cloudflare Pages.
+>>>>>>> ebecbc2 (feat: full game (visual + gameplay integrated))
